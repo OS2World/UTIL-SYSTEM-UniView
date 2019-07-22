@@ -1,0 +1,13 @@
+                         --- UniView 0.2_1 - Build Instructions ---
+
+To build the EXE from the uniview.cmd file, you need Dennis Bareis' REXX compiler "REXX2EXE".
+1. Get the file rexx2exe.zip from http://www.os2site.com/sw/dev/rexx/convert/rexx2exe.zip
+(password required when not using OS/2) or
+http://hobbes.nmsu.edu/download/pub/os2/dev/rexx/rexx2exe.zip.
+2. Unzip it into your working directory.
+3. Unzip source.zip to that directory. 
+4. To add the icon to the exe you need to have the resource-compiler rc.exe, which should
+be included with OS/2, somewhere in your path. Please notice: There is a 16bit as well as a
+32bit edition off rc.exe, the 32bit will produce a bigger EXE.
+5. Open a command window and change to your working directory.
+6. Issue the command "compile.cmd" (without the quotes).
